@@ -26,7 +26,7 @@ function draw() {
   //sun
   fill("white");
   
-  rect(width/4, shapeHeight, width/2);
+  ellipse(width / 2, shapeHeight, width / 4);
   textSize(20);
   fill("black");
   text('Hi! My name is Spencer Gardner', currentWidth/2, shapeHeight/2);
